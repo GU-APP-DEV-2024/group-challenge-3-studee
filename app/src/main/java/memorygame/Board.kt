@@ -18,6 +18,7 @@ class Board( ) {
         return cards[index]
     }
 
+
     data class Card(val suit: Char, val rank: String) {
 
     }
